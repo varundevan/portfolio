@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/fad959d9f4.js" crossorigin="anonymous"></script>
+       
+</head>
+<body>
+  
+  <div id="header">
+   <div class="container">
+      <nav>
+        <p id="txt1"><span>V</span>ARUNDEVAN </p>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>WEB Developer</p>
+        <h1>Hi, I'm <span>VARUNDEVAN </span>V</h1>
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- -----ABOUT SESSION ----- -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img id="insta_img_2" src="varun.jpeg" alt="Varun" style="height: 85%;">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Entry level Web Developer | HTML, CSS, JavaScript Enthusiast <br>
+            Who widely express my Ideas and Hardwork through the projects<br>
+            Front-End developer Skilled in conceptualizing, designing, development, <br>
+            and deployingsoftware containing logical and mathematical solutions 
+          </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>WEB Dveloper</span><br>Web app Development</li>
+          </ul>
+          <h2>Languages Known</h2>
+          <i class="fa-brands fas fa-html5 fa-2xl"><span> HTML</span></i> <br> 
+          <i class="fa-brands fas fa-css3-alt fa-2xl"><span> CSS</span></i> <br>
+          <i class="fa-brands fas fa-js fa-2xl"><span> JAVASCRIPT</span></i> <br>
+          
+          <h2>frame Work</h2>
+          <i class="fa-brands fas fa-react fa-2xl"><span> REACT.JS</span></i> <br>
+          <i class="fa-brands fa-bootstrap fas fa-2xl"><span> BOOTSTRAP</span></i> <br>   
+         
+          
+        </div>
+        <div class="tab-contents" id="education">
+          <h2>Degree Holder <br> FrontEnd developer</h2>
+          <i class="fa-solid fa-school" id="icon1"><span id="span1"> HIGHER STUDIES</span></i>
+          <ul>
+            <li><span>2019</span> <br>Lamech higher secondary school </li>
+          </ul>
+          <i class="fa-solid fa-graduation-cap" id="icon1"><span id="span1"> GRADUATION</span></i>
+          <ul>
+            <li><span>2023</span> <br>B.COM- in Alpha Arts And Science College <br> </li>
+          </ul>
+          
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------services--------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="service-list">
+         <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>We built all types of sites like
+              eCommerce websites, Shopping Cart, Custom Password TextBox, 
+              Dependent SelectBox, Password Generator, QR Code Generator 
+              in the affordable package on your suggessions and ideas  </p>
+          <a href="#">Learn more</a>
+        </div>
+         <div>
+          <i class="fa-solid fa-globe"></i>
+          <h2>Online Forums</h2>
+          <p>Contects online webinar on web development and guide 
+            them through the webinar motivate them to create their own 
+            responsive website of their need and encorange them to became a 
+            developer in the offordable package </p>
+          <a href="#">Learn more</a>
+        </div>
+         <div>
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h2>Photo Editing</h2>
+          <p>I am quit in basic level of the photoshop skills but aware to know 
+            the basic level of editings grading masking cloning etc the photos of mine you 
+          guys see in this website is edited myself because of the only thing dont depend on others</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- ----------Portfolio------- -->
+    <div id="portfolio">
+      <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+        <div class="work">
+          <img src="work-1.png">
+            <div class="layer">
+              <h3>Social media Websites</h3>
+              <p>This site Enables you to connect with the people around the world </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+          <img src="work-2.png" >
+          <div class="layer">
+            <h3>Music Websites</h3>
+            <p>You can listen to your music and download it from the huge collection of the albums </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-3.png" >
+          <div class="layer">
+            <h3>Online Websites</h3>
+            <p>This websites helps you to choose your products on your thought with out moving anywhere</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+       </div>
+       <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ------------contact---------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <address><i class="fa-solid fa-paper-plane"></i> varundev559@gmail.com </address>
+            <address><i class="fa-solid fa-square-phone"></i>+91 9361022271</address>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/varun-devan-713755298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/varundevan " target="_blank"><i class="fa-brands fa-square-github"></i></a>
+              
+              <a href="https://www.instagram.com/im_varun.x/profilecard/?igsh=dmI2ZnpzaHV6dDlr" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+
+            </div>
+            <a href="Prathip(resume(2)).pdf.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>Copyright &#169 varun devan</p>
+      </div>
+    </div>
+
+
+  <script>
+    // About session
+    var tablinks= document.getElementsByClassName("tab-links")
+    var tabcontents= document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    //sidebar
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right="0";
+      
+    }
+    function closemenu(){
+      sidemenu.style.right="-130px";
+    }
+
+  </script>
+  
+  <!-- form  -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWX1OpXfAwMfi49DLUYDXotexdVKVyRdDK5DTTkNB6WnNt387X5nBEBFxrV_XiOi-r/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = " "
+          },3000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
